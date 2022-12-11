@@ -209,18 +209,18 @@ function horoscopo (){
         
             if  (signo.anios.includes(fecha)){
 
-                console.log(`Tu Signo del Horoscopo Chino es: ${signo.signo}`)
-
                 console.log(signo.descripcion)
                 
                 animalHoroscopo = new animalHoroscopo (signo.signo,signo.elemento,signo.planeta,signo.color,signo.cualidades,signo.puntoCardinal,signo.piedra)
             
                 console.table (animalHoroscopo)
+
+                alert(`Tu Signo del Horoscopo Chino es: ${signo.signo}`)
                 }
             
             }
     }
-    else console.log("Muchas Gracias por su Participación")
+    else alert("Muchas Gracias por su Participación")
 }
 
 horoscopo()
