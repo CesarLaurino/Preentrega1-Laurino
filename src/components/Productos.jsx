@@ -3,11 +3,12 @@ import latablanca from "./img/monster blanca.png"
 import latanaranja from "./img/monster naranja.png"
 import lataamarilla from "./img/monster amarilla.png"
 import latamango from "./img/monster mango.png"
+import latarosa from "./img/monster rosa.png"
 import lataverde from "./img/monster verde.png"
 import latavioleta from "./img/monster violeta.png"
 import lataazul from "./img/monster azul.png"
 import lataturquesa from "./img/monster turquesa.png"
-import latarosa from "./img/monster rosa.png"
+
 
 const Productos = () => {
     return (
